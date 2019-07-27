@@ -115,7 +115,7 @@ createAllCards();
   let startGame = false;
   let timeInterval;
 
-// Timer
+// Count up timer from https://stackoverflow.com/a/5517836
   let minutes = document.querySelector('.minutes');
   let seconds = document.querySelector('.seconds');
   let timeInSeconds = 0;

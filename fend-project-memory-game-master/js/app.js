@@ -1,24 +1,18 @@
 /*
  * Create a list that holds all of your cards
  */
-let cardsList = [
-  'fa-anchor',
+let cardList = [
   'fa-anchor',
   'fa-bomb',
-  'fa-bomb',
-  'fa-diamond',
   'fa-diamond',
   'fa-paper-plane-o',
-  'fa-paper-plane-o',
-  'fa-bolt',
   'fa-bolt',
   'fa-cube',
-  'fa-cube',
   'fa-leaf',
-  'fa-leaf',
-  'fa-bicycle',
   'fa-bicycle'
 ];
+
+let cardsList = cardList.concat(cardList);
 
 /*
  * Display the cards on the page

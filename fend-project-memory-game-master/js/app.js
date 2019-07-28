@@ -207,6 +207,9 @@ function restartGame(){
   timeInSeconds = 0;
   // create a new shuffled cards and add them to the deck
   createAllCards();
+  if(modal.style.display === 'block'){
+    modal.style.display = 'none';
+  }
 }
 
 // restart & replay buttons click listeners to restart the game

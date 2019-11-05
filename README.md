@@ -1,5 +1,3 @@
-# fend2
-
 # Memory Game Project
 
 ## Game Instructions
